@@ -1,0 +1,284 @@
+
+body{
+	background-color: #ebebeb;
+	padding-top: 80px;
+	/* background and background code received from https://uigradients.com/#BackToEarth */
+	background: #4ECDC4;
+	background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
+	background: linear-gradient(to right, #556270, #4ECDC4);
+
+}
+.title{
+	color: white;
+	position: absolute;
+	font-weight: bold;
+	text-align: center;
+}
+
+.subtitle{
+	color: #e9967a;
+	font-weight: bold;
+}
+
+.brief{
+	font-style: italic;
+}
+
+
+/*Home*/
+.full-page-bg {
+  position: absolute;
+  margin-top: -80px;
+  padding-bottom: 100px;
+  width:100%;
+  min-height: 100vh;
+  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/*Cards*/
+.card{border: none; background-color: transparent;}
+
+/*Navbar Rules*/
+img.nav-bar-img{
+	margin-right: 10px;
+}
+
+.navbar{
+	background-color: #fff;
+
+}
+
+a.navbar-brand{
+	font-family:'Montserrat', Sans-Serif;
+	font-size:
+}
+
+/*Floating Nav*/
+.floating-nav{
+	position: fixed;
+	margin-top: 50px;
+	border-left: 1px solid #727272;
+	background-color: white;
+}
+
+	a.float-nav-link{
+		font-family: 'Lato', Sans-Serif;
+		color: black;
+		font-size: 14px;
+		font-weight: 600;
+		text-align: left;
+	}
+
+	.link{
+		position: fixed;
+		top: 300px;
+		left: 85px;
+		font-style: normal;
+		color: white;
+		background-color: #676469;
+		border: none;
+		border-radius: 12px;
+	}
+
+	.link2{
+		position: fixed;
+		top: 370px;
+		left: 100px;
+		font-style: normal;
+		color: white;
+		background-color: #676469;
+		border: none;
+		border-radius: 12px;
+	}
+
+	.link3{
+		position: fixed;
+		top: 480px;
+		left: 90px;
+		font-style: normal;
+		color: white;
+		background-color: #676469;
+		border: none;
+		border-radius: 12px;
+	}
+	.link4{
+		position: fixed;
+		top: 540px;
+		left: 70px;
+		font-style: normal;
+		color: white;
+		background-color: #676469;
+		border: none;
+		border-radius: 12px;
+	}
+
+	.link5{
+		position: fixed;
+		top: 610px;
+		left: 80px;
+		font-style: normal;
+		color: white;
+		background-color: #676469;
+		border: none;
+		border-radius: 12px;
+	}
+
+	.link6{
+		position: fixed;
+		top: 680px;
+		left: 80px;
+		font-style: normal;
+		color: white;
+		background-color: #676469;
+		border: none;
+		border-radius: 12px;
+	}
+
+	.link a{
+			color: white;
+	}
+	.link2 a{
+			color: white;
+	}
+
+	.link3 a{
+			color: white;
+	}
+
+	.link4 a{
+			color: white;
+	}
+
+	.link5 a{
+			color: white;
+	}
+
+	.link6 a{
+			color: white;
+	}
+
+/*Image Rules*/
+img{
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+
+/*Font Override Rules*/
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Montserrat', Sans-Serif;
+	margin-bottom: 20px;
+}
+	h1.welcome-special{
+		font-size: 90px;
+	}
+
+	h2.welcome-special-sub{
+		font-family: 'Lato', Sans-Serif;
+		font-size: 30px;
+	}
+
+	h3{
+		text-transform: uppercase;
+		color: #a49727;
+		letter-spacing: -0.5px;
+	}
+
+p, li, span, a {
+	font-family: 'Lato', Sans-Serif;
+	text-align: justify;
+	font-weight: 300;
+}
+
+	p{
+		color: white;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+
+span.img-caption{
+	display: block;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 10px 0px 10px 0px;
+	color: white;
+}
+
+/*Container/class etc Override Rules*/
+.welcome-message{
+	margin-top: 200px;
+}
+
+.welcome-button-container{
+	margin-top: 20px;
+}
+
+.welcome-button{
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	border: 3px solid #000;
+	font-family:'Montserrat', Sans-Serif;
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.welcome-button:hover{
+	background-color: #000;
+	border-color: #000;
+}
+
+.master-heading{
+	padding-top: 50px;
+	padding-left: 50px;
+	color: white;
+
+}
+
+.friendbotimg{
+position: fixed;
+top: 70px;
+left: 50px;
+}
+
+.dottedimg{
+	position: fixed;
+	top: 170px;
+	left: 50px;
+	width: 225px;
+}
+
+ul{
+	color: white;
+}
+
+.wireframe{
+	margin: 0 auto;
+}
+
+
+
+
+.section-heading{
+	padding-top: 100px;
+}
+
+.slide-show{
+	padding: 30px 0px 50px 0px;
+
+}
+
+/*Footer*/
+.footer{
+	margin-top: 50px;
+	padding-top: 30px;
+	width: 100%;
+	min-height: 100px;
+	background-color: #989898;
+	border-top: 1px solid #727272;
+}
