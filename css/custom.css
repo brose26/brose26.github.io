@@ -23,6 +23,13 @@ body{
 .brief{
 	font-style: italic;
 }
+.details{
+	color: #e9967a;
+}
+
+.insta{
+	color: white;
+}
 
 
 /*Home*/
@@ -189,6 +196,11 @@ h1, h2, h3, h4, h5, h6 {
 		letter-spacing: -0.5px;
 	}
 
+	h1.contact{
+		font-size: 80px;
+		color: white;
+	}
+
 p, li, span, a {
 	font-family: 'Lato', Sans-Serif;
 	text-align: justify;
@@ -209,9 +221,22 @@ span.img-caption{
 	color: white;
 }
 
+.contact{
+	font-size: 40px;
+}
+
 /*Container/class etc Override Rules*/
 .welcome-message{
 	margin-top: 200px;
+	color: white;
+}
+
+.welcome-special{
+	color: white;
+}
+.welcome-special-sub{
+	font-size: 15px;
+	color: white;
 }
 
 .welcome-button-container{
@@ -219,9 +244,9 @@ span.img-caption{
 }
 
 .welcome-button{
-	background-color: transparent;
+	background-color: #e9967a;
 	border-radius: 0px 0px 0px 0px;
-	border: 3px solid #000;
+	border: 3px solid #e9967a;
 	font-family:'Montserrat', Sans-Serif;
 	font-size: 15px;
 	color: #000;
@@ -229,8 +254,8 @@ span.img-caption{
 }
 
 .welcome-button:hover{
-	background-color: #000;
-	border-color: #000;
+	background-color: #e9967a;
+	border-color: #e9967a;
 }
 
 .master-heading{
@@ -238,6 +263,26 @@ span.img-caption{
 	padding-left: 50px;
 	color: white;
 
+}
+
+.portfolioheadingimg{
+	width: 100%;
+	height: auto;
+}
+.issueimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: auto;
+}
+
+.testersimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
 }
 
 .friendbotimg{
@@ -264,6 +309,8 @@ ul{
 
 
 
+
+
 .section-heading{
 	padding-top: 100px;
 }
@@ -271,14 +318,4 @@ ul{
 .slide-show{
 	padding: 30px 0px 50px 0px;
 
-}
-
-/*Footer*/
-.footer{
-	margin-top: 50px;
-	padding-top: 30px;
-	width: 100%;
-	min-height: 100px;
-	background-color: #989898;
-	border-top: 1px solid #727272;
 }
